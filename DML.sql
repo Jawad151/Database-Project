@@ -77,7 +77,7 @@ INSERT INTO Faculty VALUES
 ('FAC18', 'Alex Kim', 'F_fac18', 'pass18', 'akim@example.com'),
 ('FAC19', 'Jessica Park', 'F_fac19', 'pass19', 'jpark@example.com'),
 ('FAC20', 'Michael Kim', 'F_fac20', 'pass20', 'mkim@example.com');
-
+select * from Faculty
 
 DROP TABLE COURSE
 INSERT INTO COURSE VALUES

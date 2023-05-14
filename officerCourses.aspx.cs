@@ -20,9 +20,9 @@ public partial class officerCourses : System.Web.UI.Page
         // Sample data
         var instructors = new List<Instructor>()
     {
-        new Instructor { Id = 1, Name = "Instructor 1", NumOfCoursesAssigned = 2 },
-        new Instructor { Id = 2, Name = "Instructor 2", NumOfCoursesAssigned = 1 },
-        new Instructor { Id = 3, Name = "Instructor 3", NumOfCoursesAssigned = 3 },
+        new Instructor { Id = "FAC1", Name = "John Smith", NumOfCoursesAssigned = 2 },
+        new Instructor { Id = "FAC2", Name = "John Doe", NumOfCoursesAssigned = 1 },
+        new Instructor { Id = "FAC3", Name = "Bob Jhonson", NumOfCoursesAssigned = 3 },
         // Add more sample instructors
     };
 
@@ -85,7 +85,7 @@ public partial class officerCourses : System.Web.UI.Page
 
     public class Instructor
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
         public int NumOfCoursesAssigned { get; set; }
     }
